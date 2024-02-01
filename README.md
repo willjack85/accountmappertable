@@ -2,11 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Figma design
 
 In the project directory, you can run:
 
 ![Alt text](image.png)
+
+## Available Scripts
 
 ### `npm start`
 
