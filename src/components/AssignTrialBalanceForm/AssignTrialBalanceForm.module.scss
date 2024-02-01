@@ -1,0 +1,55 @@
+.assignTrialBalanceFormContainer {
+  h2 {
+    margin-bottom: 0;
+    line-height: 15px;
+  }
+
+  .assignTrialBalanceBody {
+    margin-top: 16px;
+    gap: 24px;
+    .tableContainer {
+      padding: 0;
+      background-color: var(--bdo-white);
+      td::before,
+      th::before {
+        display: none;
+      }
+      thead {
+        tr tr:last-of-type {
+          th:first-child {
+            font-weight: 400 !important;
+          }
+        }
+      }
+    }
+    .formContainer {
+      background-color: var(--bdo-white);
+      padding: 10px 32px 10px 32px;
+      height: fit-content;
+
+      [class*="ant-select-single"] {
+        max-height: 34px !important;
+      }
+
+      form > div {
+        margin: 0 !important;
+      }
+
+      form {
+        [class*="ant-form-item-label"] {
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+// ant select styles
+[class*="ant-select-item-option-content"],
+[class*="ant-select-selection-item"] {
+  text-transform: capitalize;
+}
+
+[class*="ant-select-selection-item"] {
+  color: var(--bdo-slate);
+}
