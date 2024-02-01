@@ -13,6 +13,7 @@ const AssignTrialBalanceForm: React.FC = () => {
     headerDetails,
     headerRow,
     excelData,
+    // todo: spelling mistake to match backend - to fix when backend has fixed
     staringRow,
     endingRow,
     tabDetails,
