@@ -78,7 +78,6 @@ const AssignTrialBalanceForm: React.FC = () => {
   };
 
   const handleTableData = () => {
-    const {} = trialBalanceData;
     const topRows = JSON.parse(excelData[0].rows);
     const bottomRows = JSON.parse(excelData[1].rows);
 
