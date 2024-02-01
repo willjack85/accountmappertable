@@ -4,11 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Figma design
 
-In the project directory, you can run:
-
 ![Alt text](image.png)
 
 ## Available Scripts
+
+In the project directory, you can run:
 
 ### `npm start`
 
